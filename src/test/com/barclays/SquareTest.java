@@ -13,4 +13,9 @@ public class SquareTest {
         assertEquals(20, square.perimeter(),0);
     }
 
+    @Test
+    public void shouldCalculateArea(){
+        Square square = new Square(10);
+        assertEquals(100,square.area(),0);
+    }
 }
